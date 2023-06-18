@@ -136,7 +136,7 @@ nav ul a:hover {
 }
 
 .img__index--shadow-width {
-  width: 50%;
+  max-width: 90%;
   filter: drop-shadow(0px 10px 10px #8449a1);
 }
 
@@ -153,12 +153,6 @@ nav ul a:hover {
 
 .disc__img--modifier:hover {
   transform: scale(1.05);
-}
-
-@media (max-width: 550px) {
-  .h2__title {
-    font-size: 2rem;
-  }
 }
 
 .band-img--align {
@@ -224,4 +218,10 @@ nav ul a:hover {
 hr {
   border-top: solid black 5px;
   border-radius: 3px;
+}
+
+@media (max-width: 550px) {
+  .h2__title {
+    font-size: 2rem;
+  }
 }
