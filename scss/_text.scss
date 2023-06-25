@@ -1,0 +1,35 @@
+@import "variables";
+
+.p__band--modifier {
+  background-color: $primary;
+  border-radius: $border-radius;
+  font-size: $font-size-l;
+  font-weight: 1000;
+  text-align: justify;
+  color: $txt-color;
+  padding: 5rem 5rem;
+}
+.p__main {
+  text-align: justify;
+  font-size: $font-size-l;
+  color: $txt-color;
+  padding: 5rem;
+  background-image: linear-gradient($primary, transparent);
+}
+.h2__title {
+  width: 40%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+@media (max-width: 550px) {
+  .h2__title {
+    font-size: $font-size-l;
+  }
+}
+
+@media (max-width: 550px) {
+  .h2__band__subt--modifier {
+    font-size: $font-size-xl;
+  }
+}

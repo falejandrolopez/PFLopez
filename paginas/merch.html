@@ -20,7 +20,7 @@
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-expand-lg fixed-top nav__footer--bg--color">
+      <nav class="navbar navbar-expand-lg fixed-top">
         <div class="container-fluid mx-5 px-5">
           <a class="navbar-brand mx-2" href="../index.html">
             <img
@@ -32,7 +32,7 @@
             />
           </a>
           <button
-            class="navbar-toggler nav__button--modifier mx-5"
+            class="navbar-toggler mx-5 nav__button--modifier"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarNav"
@@ -50,37 +50,19 @@
           >
             <ul class="navbar-nav">
               <li class="nav-item m-5">
-                <a class="nav-link navlink__font--modifier" href="../index.html"
-                  >Inicio</a
-                >
+                <a href="../index.html">Inicio</a>
               </li>
               <li class="nav-item m-5">
-                <a
-                  class="nav-link navlink__font--modifier"
-                  href="../paginas/banda.html"
-                  >Banda</a
-                >
+                <a href="../paginas/banda.html">Banda</a>
               </li>
               <li class="nav-item m-5">
-                <a
-                  class="nav-link navlink__font--modifier"
-                  href="../paginas/discografia.html"
-                  >Discografía</a
-                >
+                <a href="../paginas/discografia.html">Discografía</a>
               </li>
               <li class="nav-item m-5">
-                <a
-                  class="nav-link navlink__font--modifier"
-                  href="../paginas/tour.html"
-                  >Tour</a
-                >
+                <a href="../paginas/tour.html">Tour</a>
               </li>
               <li class="nav-item m-5">
-                <a
-                  class="nav-link navlink__font--modifier"
-                  href="../paginas/merch.html"
-                  >Merch</a
-                >
+                <a href="../paginas/merch.html">Merch</a>
               </li>
             </ul>
           </div>
@@ -88,118 +70,224 @@
       </nav>
     </header>
     <main class="bg-img padd__pages py-5">
-      <div class="container my-5">
+      <div class="container top__padd">
         <div class="row my-5">
           <div class="col-md-4 p-2">
-            <a href="#">
-              <img
-                src="../imagenes/discografia/1-electric-wizard.jpg"
-                alt=""
-                class="disc__img--modifier"
-              />
-            </a>
-            <div class="m-3">
-              <h2 class="disc__h2--modifier">Electric Wizard</h2>
+            <img
+              src="img/1-electric-wizard.jpg"
+              alt=""
+              class="disc__img--modifier"
+            />
+            <div class="m-3 merch__card--body">
+              <div class="card merch__card--body" style="width: 100%">
+                <img
+                  src="../imagenes/discografia/1-electric-wizard.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5>Card title</h5>
+                  <a href="#" class="btn btn-outline-light m-2"
+                    ><h6>Agregar al carrito</h6></a
+                  >
+                  <button type="button" class="btn btn-outline-light m-2">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="23"
+                      height="23"
+                      fill="currentColor"
+                      class="bi bi-heart"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"
+                      />
+                    </svg>
+                  </button>
+                </div>
+              </div>
             </div>
           </div>
           <div class="col-md-4 p-2">
-            <a href="#">
-              <img
-                src="../imagenes/discografia/2-come-my-fanatics.jpg"
-                alt=""
-                class="disc__img--modifier"
-              />
-            </a>
-            <div class="m-3">
-              <h2 class="disc__h2--modifier">Come my Fanatics</h2>
+            <img
+              src="img/1-electric-wizard.jpg"
+              alt=""
+              class="disc__img--modifier"
+            />
+            <div class="m-3 merch__card--body">
+              <div class="card merch__card--body" style="width: 100%">
+                <img
+                  src="../imagenes/discografia/1-electric-wizard.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5>Card title</h5>
+                  <a href="#" class="btn btn-outline-light m-2"
+                    ><h6>Agregar al carrito</h6></a
+                  >
+                  <button type="button" class="btn btn-outline-light m-2">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="23"
+                      height="23"
+                      fill="currentColor"
+                      class="bi bi-heart"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"
+                      />
+                    </svg>
+                  </button>
+                </div>
+              </div>
             </div>
           </div>
           <div class="col-md-4 p-2">
-            <a href="#">
-              <img
-                src="../imagenes/discografia/3-dopethrone.jpg"
-                alt=""
-                class="disc__img--modifier"
-              />
-            </a>
-            <div class="m-3">
-              <h2 class="disc__h2--modifier">Dopethrone</h2>
+            <img
+              src="img/1-electric-wizard.jpg"
+              alt=""
+              class="disc__img--modifier"
+            />
+            <div class="m-3 merch__card--body">
+              <div class="card merch__card--body" style="width: 100%">
+                <img
+                  src="../imagenes/discografia/1-electric-wizard.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5>Card title</h5>
+                  <a href="#" class="btn btn-outline-light m-2"
+                    ><h6>Agregar al carrito</h6></a
+                  >
+                  <button type="button" class="btn btn-outline-light m-2">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="23"
+                      height="23"
+                      fill="currentColor"
+                      class="bi bi-heart"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"
+                      />
+                    </svg>
+                  </button>
+                </div>
+              </div>
             </div>
           </div>
         </div>
         <div class="row my-5">
           <div class="col-md-4 p-2">
-            <a href="#">
-              <img
-                src="../imagenes/discografia/4-let-us-play.jpg"
-                alt=""
-                class="disc__img--modifier"
-              />
-            </a>
-            <div class="m-3">
-              <h2 class="disc__h2--modifier">Let Us Play</h2>
+            <img
+              src="img/1-electric-wizard.jpg"
+              alt=""
+              class="disc__img--modifier"
+            />
+            <div class="m-3 merch__card--body">
+              <div class="card merch__card--body" style="width: 100%">
+                <img
+                  src="../imagenes/discografia/1-electric-wizard.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5>Card title</h5>
+                  <a href="#" class="btn btn-outline-light m-2"
+                    ><h6>Agregar al carrito</h6></a
+                  >
+                  <button type="button" class="btn btn-outline-light m-2">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="23"
+                      height="23"
+                      fill="currentColor"
+                      class="bi bi-heart"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"
+                      />
+                    </svg>
+                  </button>
+                </div>
+              </div>
             </div>
           </div>
           <div class="col-md-4 p-2">
-            <a href="#">
-              <img
-                src="../imagenes/discografia/5-we-live.jpg"
-                alt=""
-                class="disc__img--modifier"
-              />
-            </a>
-            <div class="m-3">
-              <h2 class="disc__h2--modifier">We Live</h2>
+            <img
+              src="img/1-electric-wizard.jpg"
+              alt=""
+              class="disc__img--modifier"
+            />
+            <div class="m-3 merch__card--body">
+              <div class="card merch__card--body" style="width: 100%">
+                <img
+                  src="../imagenes/discografia/1-electric-wizard.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5>Card title</h5>
+                  <a href="#" class="btn btn-outline-light m-2"
+                    ><h6>Agregar al carrito</h6></a
+                  >
+                  <button type="button" class="btn btn-outline-light m-2">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="23"
+                      height="23"
+                      fill="currentColor"
+                      class="bi bi-heart"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"
+                      />
+                    </svg>
+                  </button>
+                </div>
+              </div>
             </div>
           </div>
           <div class="col-md-4 p-2">
-            <a href="#">
-              <img
-                src="../imagenes/discografia/6-witchcult_today.jpg"
-                alt=""
-                class="disc__img--modifier"
-              />
-            </a>
-            <div class="m-3">
-              <h2 class="disc__h2--modifier">Witchcult Today</h2>
-            </div>
-          </div>
-        </div>
-        <div class="row my-5">
-          <div class="col-md-4 p-2">
-            <a href="#">
-              <img
-                src="../imagenes/discografia/7-black-masses.jpg"
-                alt=""
-                class="disc__img--modifier"
-              />
-            </a>
-            <div class="m-3">
-              <h2 class="disc__h2--modifier">Black Masses</h2>
-            </div>
-          </div>
-          <div class="col-md-4 p-2">
-            <a href="#">
-              <img
-                src="../imagenes/discografia/8-time-to-die.jpg"
-                alt=""
-                class="disc__img--modifier"
-              />
-            </a>
-            <div class="m-3">
-              <h2 class="disc__h2--modifier">Time to Die</h2>
-            </div>
-          </div>
-          <div class="col-md-4 p-2">
-            <a href="#">
-              <img
-                src="../imagenes/discografia/9-w-b-w.jpg"
-                alt=""
-                class="disc__img--modifier"
-              />
-            </a>
-            <div class="m-3">
-              <h2 class="disc__h2--modifier">Wizard Bloody Wizard</h2>
+            <img
+              src="img/1-electric-wizard.jpg"
+              alt=""
+              class="disc__img--modifier"
+            />
+            <div class="m-3 merch__card--body">
+              <div class="card merch__card--body" style="width: 100%">
+                <img
+                  src="../imagenes/discografia/1-electric-wizard.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5>Card title</h5>
+                  <a href="#" class="btn btn-outline-light m-2"
+                    ><h6>Agregar al carrito</h6></a
+                  >
+                  <button type="button" class="btn btn-outline-light m-2">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="23"
+                      height="23"
+                      fill="currentColor"
+                      class="bi bi-heart"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"
+                      />
+                    </svg>
+                  </button>
+                </div>
+              </div>
             </div>
           </div>
         </div>

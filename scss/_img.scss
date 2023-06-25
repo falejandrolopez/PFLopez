@@ -1,0 +1,30 @@
+@import "variables";
+
+.bg-img {
+  background-image: url("../imagenes/bgimg.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.img__index--shadow-width {
+  max-width: $max-width;
+  filter: drop-shadow(0px 10px 10px $secondary);
+}
+
+.disc__img--modifier {
+  width: $max-width;
+  transition: all 0.5s ease-in-out;
+}
+
+.disc__img--modifier:hover {
+  transform: scale(1.05);
+}
+
+.band-img--modifier {
+  border: $border solid $secondary;
+  border-radius: $border-radius;
+  max-width: $max-width;
+  margin: 5rem 0;
+}

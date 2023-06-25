@@ -1,0 +1,27 @@
+@import "variables";
+//FONTS
+@mixin font($font-size) {
+  font-size: $font-size;
+  color: $txt-color;
+  font-family: "Cinzel";
+  margin: 1rem;
+  padding: 2rem;
+  background-color: rgba($primary, $opacity-med);
+  border-radius: $border-radius;
+  text-align: center;
+}
+
+h2 {
+  @include font($font-size-xl);
+}
+.h2__disc {
+  @include font($font-size-l);
+}
+
+h3 {
+  @include font($font-size-m);
+}
+
+h4 {
+  @include font($font-size-sm);
+}

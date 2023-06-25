@@ -1,3 +1,24 @@
+.color-primary {
+  color: #8449a1;
+}
+.color-primary .hover-primary {
+  color: #8449a1;
+}
+
+.color-secondary {
+  color: #53eda1;
+}
+.color-secondary .hover-secondary {
+  color: #53eda1;
+}
+
+.color-txt-color {
+  color: white;
+}
+.color-txt-color .hover-txt-color {
+  color: white;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -6,102 +27,17 @@
   font-size: 62.5%;
 }
 
-h2 {
-  font-size: 4rem;
-  color: whitesmoke;
-  font-family: "Cinzel";
-  padding: 2rem;
-  background-color: rgba(132, 73, 161, 0.8);
-  border-radius: 15px;
-  text-align: center;
-}
-
-.h2__subt--modifier {
-  background-color: rgba(132, 73, 161, 0.8);
-  border-radius: 15px;
-  font-size: 4rem;
-  font-family: "Cinzel";
-  color: black;
-  padding: 1rem;
-  margin-bottom: 2rem;
-  text-align: center;
-}
-
-.h2__title {
-  width: 40%;
-  margin: 0 auto;
-  text-align: center;
-}
-
-.disc__h2--modifier {
-  font-size: 3rem;
-  color: whitesmoke;
-  font-family: "Cinzel";
-  padding: 1rem;
-  background-color: rgba(132, 73, 161, 0.8);
-  border-radius: 15px;
-  text-align: center;
-}
-
-h3 {
-  font-size: 3rem;
-  color: whitesmoke;
-  font-family: "Cinzel";
-  padding: 2rem;
-}
-
-h4 {
-  font-size: 3rem;
-  color: whitesmoke;
-  font-family: "Cinzel";
-  padding: 2rem 0;
-  background-color: rgba(132, 73, 161, 0.8);
-  border-radius: 15px;
-  margin: 2rem 0;
-}
-
-h5 {
-  font-size: 2rem;
-  color: whitesmoke;
-  padding-bottom: 1rem;
-}
-
-h6 {
-  font-size: 1.5rem;
-}
-
-.p__band--modifier {
-  background-color: rgba(132, 73, 161, 0.8);
-  border-radius: 15px;
-  font-size: 2rem;
-  font-weight: 1000;
-  text-align: justify;
-  color: whitesmoke;
-  padding: 3rem 3rem;
-}
-.p__main {
-  text-align: justify;
-  font-size: 2rem;
-  color: whitesmoke;
-  padding: 2rem 5rem;
-  background-image: linear-gradient(#8449a1, transparent);
-}
-
-.padd__pages {
-  padding: 8rem 0 5rem 0;
-}
-
-.nav__footer--bg--color {
+nav {
   background-color: #8449a1;
 }
-
-.navlink__font--modifier {
+nav div ul li a {
   font-size: 3rem;
-  color: whitesmoke;
+  color: white;
   text-transform: uppercase;
+  text-decoration: none;
+  padding: 0.5rem;
 }
-
-nav ul a:hover {
+nav div ul li a:hover {
   background-color: #53eda1;
   border-radius: 15px;
   transition: all 300ms ease-in;
@@ -112,7 +48,12 @@ nav ul a:hover {
 .nav__button--modifier {
   height: 8rem;
   width: 8rem;
-  border: 2px solid black;
+  border: 3px solid black;
+}
+.nav__button--modifier:hover {
+  background-color: #53eda1;
+  transition: all 200ms ease-in;
+  color: black;
 }
 
 .nav__button--modifier--inside {
@@ -120,85 +61,17 @@ nav ul a:hover {
   width: 6rem;
 }
 
-.nav__button--modifier:hover {
-  background-color: #53eda1;
-  transition: all 200ms ease-in;
-  color: black;
-}
-
-.bg-img {
-  background-image: url("../imagenes/bgimg.jpg");
-  background-position: top;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  min-height: 100vh;
-}
-
-.img__index--shadow-width {
-  max-width: 90%;
-  filter: drop-shadow(0px 10px 10px #8449a1);
-}
-
-.main__index--flex-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.disc__img--modifier {
-  width: 100%;
-  transition: all 0.5s ease-in-out;
-}
-
-.disc__img--modifier:hover {
-  transform: scale(1.05);
-}
-
-.band-img--align {
-  text-align: center;
-}
-
-.band-img--modifier {
-  border: 3px solid #53eda1;
-  border-radius: 15px;
-  max-width: 100%;
-  margin: 5rem 0;
-}
-
-.tour-margin {
-  margin-top: 5rem;
-}
-
-.list-tour {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  margin: 2rem 10rem 0 10rem;
-  padding: 1rem 0;
-  background-color: rgba(132, 73, 161, 0.8);
-  opacity: 0.9;
-  border: 5px solid black;
-  border-radius: 15px;
-}
-
-.list-tour-items {
-  list-style: none;
-  font-size: 4rem;
-  margin-right: auto;
-  border-radius: 15px;
-  opacity: 0.7;
-  font-weight: 900;
-  padding: 3rem;
+footer {
+  background-color: #8449a1;
 }
 
 .btn-tk {
   font-size: 3rem;
   font-family: "Cinzel";
-  color: whitesmoke;
+  color: white;
   cursor: pointer;
   background-color: #8449a1;
-  border: 2px solid #53eda1;
+  border: 3px solid #53eda1;
   border-radius: 15px;
   transition: all 100ms ease-in;
   max-width: 60%;
@@ -216,8 +89,119 @@ nav ul a:hover {
 }
 
 hr {
-  border-top: solid black 5px;
-  border-radius: 3px;
+  border-top: solid black 10px;
+  border-radius: 15px;
+}
+
+.tour-margin {
+  margin-top: 5rem;
+}
+
+.list-tour {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 2rem 10rem 0 10rem;
+  padding: 1rem 0;
+  background-color: rgba(132, 73, 161, 0.9);
+  opacity: 0.9;
+  border: 3px solid black;
+  border-radius: 15px;
+}
+
+.list-tour-items {
+  list-style: none;
+  font-size: 4rem;
+  color: #53eda1;
+  margin-right: auto;
+  border-radius: 15px;
+  opacity: 0.9;
+  font-weight: 900;
+  padding: 3rem;
+}
+
+.main__index--flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.padd__pages {
+  padding: 8rem 0 5rem 0;
+}
+
+.merch__card--body {
+  background-color: #8449a1;
+}
+
+.geo--color {
+  color: white;
+}
+
+.color-primary {
+  color: #8449a1;
+}
+.color-primary .hover-primary {
+  color: #8449a1;
+}
+
+.color-secondary {
+  color: #53eda1;
+}
+.color-secondary .hover-secondary {
+  color: #53eda1;
+}
+
+.color-txt-color {
+  color: white;
+}
+.color-txt-color .hover-txt-color {
+  color: white;
+}
+
+.color-primary {
+  color: #8449a1;
+}
+.color-primary .hover-primary {
+  color: #8449a1;
+}
+
+.color-secondary {
+  color: #53eda1;
+}
+.color-secondary .hover-secondary {
+  color: #53eda1;
+}
+
+.color-txt-color {
+  color: white;
+}
+.color-txt-color .hover-txt-color {
+  color: white;
+}
+
+.p__band--modifier {
+  background-color: #8449a1;
+  border-radius: 15px;
+  font-size: 2rem;
+  font-weight: 1000;
+  text-align: justify;
+  color: white;
+  padding: 5rem 5rem;
+}
+
+.p__main {
+  text-align: justify;
+  font-size: 2rem;
+  color: white;
+  padding: 5rem;
+  background-image: linear-gradient(#8449a1, transparent);
+}
+
+.h2__title {
+  width: 40%;
+  margin: 0 auto;
+  text-align: center;
 }
 
 @media (max-width: 550px) {
@@ -225,3 +209,124 @@ hr {
     font-size: 2rem;
   }
 }
+@media (max-width: 550px) {
+  .h2__band__subt--modifier {
+    font-size: 3rem;
+  }
+}
+.color-primary {
+  color: #8449a1;
+}
+.color-primary .hover-primary {
+  color: #8449a1;
+}
+
+.color-secondary {
+  color: #53eda1;
+}
+.color-secondary .hover-secondary {
+  color: #53eda1;
+}
+
+.color-txt-color {
+  color: white;
+}
+.color-txt-color .hover-txt-color {
+  color: white;
+}
+
+.bg-img {
+  background-image: url("../imagenes/bgimg.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.img__index--shadow-width {
+  max-width: 100%;
+  filter: drop-shadow(0px 10px 10px #53eda1);
+}
+
+.disc__img--modifier {
+  width: 100%;
+  transition: all 0.5s ease-in-out;
+}
+
+.disc__img--modifier:hover {
+  transform: scale(1.05);
+}
+
+.band-img--modifier {
+  border: 3px solid #53eda1;
+  border-radius: 15px;
+  max-width: 100%;
+  margin: 5rem 0;
+}
+
+.color-primary {
+  color: #8449a1;
+}
+.color-primary .hover-primary {
+  color: #8449a1;
+}
+
+.color-secondary {
+  color: #53eda1;
+}
+.color-secondary .hover-secondary {
+  color: #53eda1;
+}
+
+.color-txt-color {
+  color: white;
+}
+.color-txt-color .hover-txt-color {
+  color: white;
+}
+
+h2 {
+  font-size: 3rem;
+  color: white;
+  font-family: "Cinzel";
+  margin: 1rem;
+  padding: 2rem;
+  background-color: rgba(132, 73, 161, 0.7);
+  border-radius: 15px;
+  text-align: center;
+}
+
+.h2__disc {
+  font-size: 2rem;
+  color: white;
+  font-family: "Cinzel";
+  margin: 1rem;
+  padding: 2rem;
+  background-color: rgba(132, 73, 161, 0.7);
+  border-radius: 15px;
+  text-align: center;
+}
+
+h3 {
+  font-size: 1.5rem;
+  color: white;
+  font-family: "Cinzel";
+  margin: 1rem;
+  padding: 2rem;
+  background-color: rgba(132, 73, 161, 0.7);
+  border-radius: 15px;
+  text-align: center;
+}
+
+h4 {
+  font-size: 0.5rem;
+  color: white;
+  font-family: "Cinzel";
+  margin: 1rem;
+  padding: 2rem;
+  background-color: rgba(132, 73, 161, 0.7);
+  border-radius: 15px;
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,128 @@
+@import "variables";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Cutive Mono", monospace;
+  font-size: 62.5%;
+}
+
+nav {
+  background-color: $primary;
+  div {
+    ul {
+      li {
+        a {
+          font-size: $font-size-xl;
+          color: $txt-color;
+          text-transform: uppercase;
+          text-decoration: none;
+          padding: 0.5rem;
+
+          &:hover {
+            background-color: $secondary;
+            border-radius: $border-radius;
+            transition: all 300ms ease-in;
+            color: black;
+            font-weight: 700;
+          }
+        }
+      }
+    }
+  }
+}
+
+.nav__button--modifier {
+  height: 8rem;
+  width: 8rem;
+  border: $border solid black;
+
+  &:hover {
+    background-color: $secondary;
+    transition: all 200ms ease-in;
+    color: black;
+  }
+}
+
+.nav__button--modifier--inside {
+  height: 6rem;
+  width: 6rem;
+}
+
+footer {
+  background-color: $primary;
+}
+
+.btn-tk {
+  font-size: $font-size-xl;
+  font-family: "Cinzel";
+  color: $txt-color;
+  cursor: pointer;
+  background-color: $primary;
+  border: $border solid $secondary;
+  border-radius: $border-radius;
+  transition: all 100ms ease-in;
+  max-width: 60%;
+  padding: 1rem;
+  margin-right: 2rem;
+}
+
+.btn-tk:hover {
+  color: black;
+  background-color: $secondary;
+}
+
+.top__padd {
+  padding-top: 10rem;
+}
+
+hr {
+  border-top: solid black 10px;
+  border-radius: $border-radius;
+}
+
+.tour-margin {
+  margin-top: 5rem;
+}
+
+.list-tour {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 2rem 10rem 0 10rem;
+  padding: 1rem 0;
+  background-color: rgba($primary, $opacity-hig);
+  opacity: $opacity-hig;
+  border: $border solid black;
+  border-radius: $border-radius;
+}
+
+.list-tour-items {
+  list-style: none;
+  font-size: $font-size-xxl;
+  color: $secondary;
+  margin-right: auto;
+  border-radius: $border-radius;
+  opacity: $opacity-hig;
+  font-weight: 900;
+  padding: 3rem;
+}
+
+.main__index--flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.padd__pages {
+  padding: 8rem 0 5rem 0;
+}
+
+.merch__card--body {
+  background-color: $primary;
+}
+
+.geo--color {
+  color: $txt-color;
+}
