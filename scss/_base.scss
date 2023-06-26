@@ -34,10 +34,7 @@ nav {
 }
 
 .nav__button--modifier {
-  height: 8rem;
-  width: 8rem;
-  border: $border solid black;
-
+  border: 0 solid black;
   &:hover {
     background-color: $secondary;
     transition: all 200ms ease-in;
@@ -47,7 +44,7 @@ nav {
 
 .nav__button--modifier--inside {
   height: 6rem;
-  width: 6rem;
+  width: 4rem;
 }
 
 footer {
