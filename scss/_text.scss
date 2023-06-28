@@ -1,7 +1,7 @@
 @import "variables";
 
 .p__band--modifier {
-  background-color: $primary;
+  background-color: rgba($primary, $opacity-med);
   border-radius: $border-radius;
   font-size: $font-size-l;
   font-weight: 1000;
@@ -14,22 +14,27 @@
   font-size: $font-size-l;
   color: $txt-color;
   padding: 5rem;
-  background-image: linear-gradient($primary, transparent);
+  background-color: linear-gradient($primary, transparent);
 }
 .h2__title {
   width: 40%;
   margin: 0 auto;
   text-align: center;
 }
+.btn-tk {
+  height: 100%;
+  width: 100%;
+  font-size: $font-size-l;
+}
+
+.card-title {
+  font-size: $font-size-l;
+  color: $txt-color;
+  font-weight: 600;
+}
 
 @media (max-width: 550px) {
   .h2__title {
     font-size: $font-size-l;
-  }
-}
-
-@media (max-width: 550px) {
-  .h2__band__subt--modifier {
-    font-size: $font-size-xl;
   }
 }

@@ -1,4 +1,5 @@
 @import "variables";
+
 //FONTS
 @mixin font($font-size) {
   font-size: $font-size;
@@ -24,4 +25,20 @@ h3 {
 
 h4 {
   @include font($font-size-sm);
+}
+
+//FLEX
+
+@mixin flex($flex-jc-center) {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: $flex-jc-center;
+}
+
+.flex--container--center {
+  @include flex($flex-jc-center);
+}
+
+.flex--container--space-around {
+  @include flex($flex-jc-space-aroud);
 }

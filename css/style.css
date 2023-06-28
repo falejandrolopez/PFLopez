@@ -39,7 +39,7 @@ nav div ul li a {
 }
 nav div ul li a:hover {
   background-color: #53eda1;
-  border-radius: 15px;
+  border-radius: 20px;
   transition: all 300ms ease-in;
   color: black;
   font-weight: 700;
@@ -53,87 +53,32 @@ nav div ul li a:hover {
   transition: all 200ms ease-in;
   color: black;
 }
-
-.nav__button--modifier--inside {
+.nav__button--modifier .nav__button--modifier--inside {
   height: 6rem;
   width: 4rem;
+}
+
+.merch__card--body {
+  background-color: rgba(132, 73, 161, 0.5);
+  border: 5px;
+  border-radius: 20px;
+  max-width: 100%;
+}
+.merch__card--body a h6 {
+  font-size: 2rem;
 }
 
 footer {
   background-color: #8449a1;
 }
 
-.btn-tk {
-  font-size: 3rem;
-  font-family: "Cinzel";
-  color: white;
-  cursor: pointer;
-  background-color: #8449a1;
-  border: 3px solid #53eda1;
-  border-radius: 15px;
-  transition: all 100ms ease-in;
-  max-width: 60%;
-  padding: 1rem;
-  margin-right: 2rem;
-}
-
-.btn-tk:hover {
-  color: black;
-  background-color: #53eda1;
-}
-
-.top__padd {
-  padding-top: 10rem;
-}
-
 hr {
   border-top: solid black 10px;
-  border-radius: 15px;
-}
-
-.tour-margin {
-  margin-top: 5rem;
-}
-
-.list-tour {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  margin: 2rem 10rem 0 10rem;
-  padding: 1rem 0;
-  background-color: rgba(132, 73, 161, 0.9);
-  opacity: 0.9;
-  border: 3px solid black;
-  border-radius: 15px;
-}
-
-.list-tour-items {
-  list-style: none;
-  font-size: 4rem;
-  color: #53eda1;
-  margin-right: auto;
-  border-radius: 15px;
-  opacity: 0.9;
-  font-weight: 900;
-  padding: 3rem;
-}
-
-.main__index--flex-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  border-radius: 20px;
 }
 
 .padd__pages {
   padding: 8rem 0 5rem 0;
-}
-
-.merch__card--body {
-  background-color: #8449a1;
-}
-
-.geo--color {
-  color: white;
 }
 
 .color-primary {
@@ -179,8 +124,8 @@ hr {
 }
 
 .p__band--modifier {
-  background-color: #8449a1;
-  border-radius: 15px;
+  background-color: rgba(132, 73, 161, 0.7);
+  border-radius: 20px;
   font-size: 2rem;
   font-weight: 1000;
   text-align: justify;
@@ -193,7 +138,7 @@ hr {
   font-size: 2rem;
   color: white;
   padding: 5rem;
-  background-image: linear-gradient(#8449a1, transparent);
+  background-color: linear-gradient(#8449a1, transparent);
 }
 
 .h2__title {
@@ -202,14 +147,21 @@ hr {
   text-align: center;
 }
 
+.btn-tk {
+  height: 100%;
+  width: 100%;
+  font-size: 2rem;
+}
+
+.card-title {
+  font-size: 2rem;
+  color: white;
+  font-weight: 600;
+}
+
 @media (max-width: 550px) {
   .h2__title {
     font-size: 2rem;
-  }
-}
-@media (max-width: 550px) {
-  .h2__band__subt--modifier {
-    font-size: 3rem;
   }
 }
 .color-primary {
@@ -256,8 +208,8 @@ hr {
 }
 
 .band-img--modifier {
-  border: 3px solid #53eda1;
-  border-radius: 15px;
+  border: 5px solid #53eda1;
+  border-radius: 20px;
   max-width: 100%;
   margin: 5rem 0;
 }
@@ -290,7 +242,7 @@ h2 {
   margin: 1rem;
   padding: 2rem;
   background-color: rgba(132, 73, 161, 0.7);
-  border-radius: 15px;
+  border-radius: 20px;
   text-align: center;
 }
 
@@ -301,7 +253,7 @@ h2 {
   margin: 1rem;
   padding: 2rem;
   background-color: rgba(132, 73, 161, 0.7);
-  border-radius: 15px;
+  border-radius: 20px;
   text-align: center;
 }
 
@@ -312,7 +264,7 @@ h3 {
   margin: 1rem;
   padding: 2rem;
   background-color: rgba(132, 73, 161, 0.7);
-  border-radius: 15px;
+  border-radius: 20px;
   text-align: center;
 }
 
@@ -323,8 +275,20 @@ h4 {
   margin: 1rem;
   padding: 2rem;
   background-color: rgba(132, 73, 161, 0.7);
-  border-radius: 15px;
+  border-radius: 20px;
   text-align: center;
+}
+
+.flex--container--center {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.flex--container--space-around {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 /*# sourceMappingURL=style.css.map */
